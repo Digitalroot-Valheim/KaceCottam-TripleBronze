@@ -16,7 +16,7 @@ namespace TripleBronzeJVL
   [BepInPlugin(Guid, Name, Version)]
   public class Main : BaseUnityPlugin, ITraceableLogging
   {
-    public const string Version = "1.0.0";
+    public const string Version = "1.0.1";
     public const string Name = "Digitalroot TripleBronzeJVL";
     public const string Guid = "digitalroot.mods.triplebronze.jvl";
     public const string Namespace = "TripleBronzeJVL";
@@ -47,7 +47,7 @@ namespace TripleBronzeJVL
       CraftBarsInForge = Config.Bind("General", "Craft Bars In Forge", true, new ConfigDescription("Allows bypassing the smelter by creating crafting recipes for ores/scraps -> bars.", null, new ConfigurationManagerAttributes { IsAdminOnly = true }));
       CoalPerBar = Config.Bind("General", "Coal Per Bar", 5, new ConfigDescription("Can create bars using this many coal. Ores/Scrap are crafted to bars in a 1:1 ratio.", null, new ConfigurationManagerAttributes { IsAdminOnly = true }));
 
-      ItemManager.OnVanillaItemsAvailable += ItemManagerOnVanillaItemsAvailableAddNewRecipes;
+      PrefabManager.OnVanillaPrefabsAvailable += ItemManagerOnVanillaItemsAvailableAddNewRecipes;
       ItemManager.OnItemsRegisteredFejd += ItemManagerOnVanillaItemsAvailableUpdateBronze;
 
       BronzeMultiplier.SettingChanged += BronzeMultiplierSettingChanged;
@@ -128,7 +128,7 @@ namespace TripleBronzeJVL
 
     private void ItemManagerOnVanillaItemsAvailableAddNewRecipes()
     {
-      ItemManager.OnVanillaItemsAvailable -= ItemManagerOnVanillaItemsAvailableAddNewRecipes;
+      PrefabManager.OnVanillaPrefabsAvailable -= ItemManagerOnVanillaItemsAvailableAddNewRecipes;
       if (!CraftBarsInForge.Value) return;
       AddNewCoalRecipe();
       AddNewBarRecipe(Digitalroot.Valheim.Common.Names.ItemDropNames.Copper, Digitalroot.Valheim.Common.Names.ItemDropNames.CopperOre, 1);
