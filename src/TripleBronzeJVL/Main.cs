@@ -11,12 +11,12 @@ using System.Linq;
 
 namespace TripleBronzeJVL
 {
-  [BepInDependency(Jotunn.Main.ModGuid)]
+  [BepInDependency(Jotunn.Main.ModGuid, "2.3.0")]
   [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Minor)]
   [BepInPlugin(Guid, Name, Version)]
   public class Main : BaseUnityPlugin, ITraceableLogging
   {
-    public const string Version = "1.0.1";
+    public const string Version = "1.1.0";
     public const string Name = "Digitalroot TripleBronzeJVL";
     public const string Guid = "digitalroot.mods.triplebronze.jvl";
     public const string Namespace = "TripleBronzeJVL";
