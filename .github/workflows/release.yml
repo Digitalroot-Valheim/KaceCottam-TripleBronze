@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     
   push:
-    branches: [ master ] # Default release branch
+    branches: [ main ] # Default release branch
     paths:
       - 'src/**'   
       - '.github/workflows/**' 
