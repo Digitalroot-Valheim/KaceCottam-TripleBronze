@@ -1,3 +1,7 @@
+# Summary
+This is a port of <a href="https://www.nexusmods.com/valheim/mods/94">TripleBronze</a> to JVL   
+
+
 # TripleBronze
 Triples the amount of bronze you get with each craft so that crafting bronze is consistent (1 tin ingot + 2 copper ingots = 3 bronze ingots)
 Place `.dll` file in to Valheim/BepinEx/plugins/ folder.
@@ -7,7 +11,17 @@ There is a configuration file to change the multiplier of bronze. After the firs
 
 In the configuration file, you can also enable the "QuickSmelt" patch which add QOL recipes from ores -> bars into the forge after upgrading the tier. This has configurable coal amounts. This might need you to drop/pickup coal ore, tin ore, wood, and iron ore.
 
-Hosted at <https://www.nexusmods.com/valheim/mods/94>
+Hosted at <https://www.nexusmods.com/valheim/mods/1463>
 
-## Changelog 0.3
-Added black metal, flametal and silver recipes to quality of life addon.
+### Issues/Questions/Bugs
+- Use the repo issues tab above.
+
+### Support Me @ https://www.buymeacoffee.com/digitalroot
+
+### Thanks to 
+- <a href="https://github.com/KaceCottam" target="_blank">LolmanXDXD</a>
+
+<p align="center">
+<b>Digitalroot can be found in the Odin Plus Team Discord</b><br />
+  <a href="https://discord.gg/BHbTumqG7U" target="_blank"><img src="https://digitalroot.net/img/odinplusdisc.png"></a>
+</p>

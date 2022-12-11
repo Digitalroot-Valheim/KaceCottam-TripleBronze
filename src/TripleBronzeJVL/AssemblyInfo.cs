@@ -21,7 +21,7 @@ using TripleBronzeJVL;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0b92b132-a743-4850-bd1a-6f24b6753139")]
+[assembly: Guid("3ccc4dc1-5b17-47c1-b996-ca03b8639a61")]
 
 // Version information for an assembly consists of the following four values:
 //

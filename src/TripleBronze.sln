@@ -1,36 +1,76 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31019.35
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleBronze", "TripleBronze\TripleBronze.csproj", "{F35B5865-78A7-4481-8B36-5A7FC0022DA8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3BBBB035-D141-4C9D-A034-964533AE5D03}"
 	ProjectSection(SolutionItems) = preProject
 		..\.gitattributes = ..\.gitattributes
 		..\.gitignore = ..\.gitignore
-		..\icon.png = ..\icon.png
-		..\manifest.json = ..\manifest.json
-		..\README.md = ..\README.md
+		..\LICENSE = ..\LICENSE
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleBronzeJVL", "TripleBronzeJVL\TripleBronzeJVL.csproj", "{0B92B132-A743-4850-BD1A-6F24B6753139}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripleBronzeJVL", "TripleBronzeJVL\TripleBronzeJVL.csproj", "{F54E1842-C84D-4F49-97A9-41D704AAB7B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{1005EEFA-6C3A-4E11-8456-AF4D8C349D46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{432BEC66-3015-4510-B700-11643B36F72E}"
+	ProjectSection(SolutionItems) = preProject
+		..\docs\README.md = ..\docs\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "imgs", "imgs", "{07B8E4AC-F256-4A3E-801E-100E1CCE2CEB}"
+	ProjectSection(SolutionItems) = preProject
+		..\imgs\triplebronze1.png = ..\imgs\triplebronze1.png
+		..\imgs\triplebronze10.png = ..\imgs\triplebronze10.png
+		..\imgs\triplebronze11.png = ..\imgs\triplebronze11.png
+		..\imgs\triplebronze2.png = ..\imgs\triplebronze2.png
+		..\imgs\triplebronze3.png = ..\imgs\triplebronze3.png
+		..\imgs\triplebronze4.png = ..\imgs\triplebronze4.png
+		..\imgs\triplebronze5.png = ..\imgs\triplebronze5.png
+		..\imgs\triplebronze6.png = ..\imgs\triplebronze6.png
+		..\imgs\triplebronze7.png = ..\imgs\triplebronze7.png
+		..\imgs\triplebronze8.png = ..\imgs\triplebronze8.png
+		..\imgs\triplebronze9.png = ..\imgs\triplebronze9.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{82625CE6-5CD2-4DBD-BFFB-97D7F07C3AD5}"
+	ProjectSection(SolutionItems) = preProject
+		..\.github\workflows\discord.yml = ..\.github\workflows\discord.yml
+		..\.github\workflows\nuget.autoupdate.yml = ..\.github\workflows\nuget.autoupdate.yml
+		..\.github\workflows\release.yml = ..\.github\workflows\release.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{8DE01470-64F4-449A-A4F5-D915B67B850F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		DebugNoDeploy|Any CPU = DebugNoDeploy|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F35B5865-78A7-4481-8B36-5A7FC0022DA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F35B5865-78A7-4481-8B36-5A7FC0022DA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B92B132-A743-4850-BD1A-6F24B6753139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B92B132-A743-4850-BD1A-6F24B6753139}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B92B132-A743-4850-BD1A-6F24B6753139}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B92B132-A743-4850-BD1A-6F24B6753139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54E1842-C84D-4F49-97A9-41D704AAB7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54E1842-C84D-4F49-97A9-41D704AAB7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54E1842-C84D-4F49-97A9-41D704AAB7B4}.DebugNoDeploy|Any CPU.ActiveCfg = DebugNoDeploy|Any CPU
+		{F54E1842-C84D-4F49-97A9-41D704AAB7B4}.DebugNoDeploy|Any CPU.Build.0 = DebugNoDeploy|Any CPU
+		{F54E1842-C84D-4F49-97A9-41D704AAB7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54E1842-C84D-4F49-97A9-41D704AAB7B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE01470-64F4-449A-A4F5-D915B67B850F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE01470-64F4-449A-A4F5-D915B67B850F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE01470-64F4-449A-A4F5-D915B67B850F}.DebugNoDeploy|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE01470-64F4-449A-A4F5-D915B67B850F}.DebugNoDeploy|Any CPU.Build.0 = Debug|Any CPU
+		{8DE01470-64F4-449A-A4F5-D915B67B850F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE01470-64F4-449A-A4F5-D915B67B850F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1005EEFA-6C3A-4E11-8456-AF4D8C349D46} = {3BBBB035-D141-4C9D-A034-964533AE5D03}
+		{432BEC66-3015-4510-B700-11643B36F72E} = {3BBBB035-D141-4C9D-A034-964533AE5D03}
+		{07B8E4AC-F256-4A3E-801E-100E1CCE2CEB} = {3BBBB035-D141-4C9D-A034-964533AE5D03}
+		{82625CE6-5CD2-4DBD-BFFB-97D7F07C3AD5} = {1005EEFA-6C3A-4E11-8456-AF4D8C349D46}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23F502BE-1F4E-4783-989F-7A4DEE18FD9A}

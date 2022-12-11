@@ -1,0 +1,54 @@
+﻿[size=3][b][size=4]Summary[/size][/b]
+This is a port of [url=https://www.nexusmods.com/valheim/mods/94]Triple Bronze[/url] to [url=https://www.nexusmods.com/valheim/mods/1138]JVL[/url]   
+
+Concept belongs to [url=https://www.nexusmods.com/valheim/users/4210202]LolmanXDXD[/url] and is used with permission because of:   
+[list]
+[*][size=3]Modification permission: You are allowed to modify my files and release bug fixes or improve on the features so long as you credit me as the original creator. [url=https://www.nexusmods.com/valheim/mods/94]https://www.nexusmods.com/valheim/mods/94[/url]﻿﻿ (Sept 4, 2021)[/size]
+[/list][size=3] 
+Original Mod: [url=https://www.nexusmods.com/valheim/mods/969  ]https://www.nexusmods.com/valheim/mods/969[/url] 
+Original GitHub: [url=https://github.com/KaceCottam/TripleBronze]https://github.com/KaceCottam/TripleBronze[/url]
+
+[b]Code is a complete rewrite.[/b]
+
+[b][size=4]License[/size][/b]
+Original source has no license.   
+JVL Version is released under: [url=https://github.com/Digitalroot-Valheim/KaceCottam-TripleBronze/blob/master/LICENSE]GNU Affero General Public License v3.0[/url]
+
+
+[b][size=4]Triple Bronze JVL[/size][/b]
+Triples the amount of bronze you get with each craft so that crafting bronze is consistent (1 tin ingot + 2 copper ingots = 3 bronze ingots) - LolmanXDXD
+
+[/size][size=3]
+[b]Dependencies[/b]
+[/size][list]
+[*][size=3][url=https://valheim.thunderstore.io/package/denikson/BepInExPack_Valheim/]BepInExPack Valheim[/url]﻿[/size]
+[*][size=3][url=https://github.com/Valheim-Modding/Jotunn]Jotunn (JVL)﻿[/url][/size]
+[/list][size=3]
+[b][size=4]Installation (manual)[/size][/b]
+[/size][list=1]
+[*][size=3]Download the latest release archive (zip) file.[/size]
+[*][size=3]Extract the archive into <Steam Location>\steamapps\common\Valheim\BepInEx\plugins\[/size]
+[/list][size=3]
+[size=4][b]Configuration [/b][/size][/size][/size]
+
+[list]
+[*][size=3][b]Bronze Multiplier:[/b] The normal recipe result for bronze is multiplied by this value.[/size]
+[*][size=3][b]Craft Bars In Forge: [/b]Allows bypassing the smelter by creating crafting recipes for ores/scraps -> bars for the forge after upgrading the forge to the proper tier. [/size]
+[*][size=3][b]Coal Per Bar:[/b] Controls how much coal is needed to craft a bar of metal. [/size]
+[/list]
+[b][size=4]Issues/Bugs[/size][/b]
+Open an issue or bug on the [url=https://github.com/Digitalroot-Valheim/KaceCottam-TripleBronze/issues]issue board[/url]﻿﻿.
+
+[b][size=4]Questions[/size][/b]
+Ask a question on the [url=https://github.com/Digitalroot-Valheim/KaceCottam-TripleBronze/discussions]discussions board[/url]﻿﻿.
+
+
+[b][size=4]Support Me[/size][/b] @ [url=https://www.buymeacoffee.com/digitalroot]https://www.buymeacoffee.com/digitalroot[/url]
+
+[b][size=4]Thanks to[/size]
+ [/b][url=https://www.nexusmods.com/valheim/users/4210202]LolmanXDXD[/url] for concept and code.
+
+
+
+[center][size=3][b][color=#00ffff]Digitalroot can be found in the Odin Plus Team Discord[/color][/b][/size]
+[url=https://discord.gg/mbkPcvu9ax][img]https://digitalroot.net/img/odinplusdisc.png[/img][/url]﻿[/center]
