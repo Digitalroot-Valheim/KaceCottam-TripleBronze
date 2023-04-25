@@ -21,7 +21,8 @@ Hosted at <https://www.nexusmods.com/valheim/mods/1463>
 ### Thanks to 
 - <a href="https://github.com/KaceCottam" target="_blank">LolmanXDXD</a>
 
+<br />
 <p align="center">
-<b>Digitalroot can be found in the Odin Plus Team Discord</b><br />
-  <a href="https://discord.gg/BHbTumqG7U" target="_blank"><img src="https://digitalroot.net/img/odinplusdisc.png"></a>
+<b>Digitalroot can be found in the Valhalla Legends Discord</b><br /><br />
+  <a href="https://discord.gg/SsMW3rm67u" target="_blank"><img src="https://digitalroot.net/img/vl/vl_logo_125x154.png"></a>
 </p>
