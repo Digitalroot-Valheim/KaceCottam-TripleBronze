@@ -4,7 +4,6 @@ concurrency: ci-${{ github.ref }}
 
 on:
   workflow_dispatch:
-    
   push:
     branches: [ main ] # Default release branch
     paths-ignore:
@@ -26,10 +25,16 @@ jobs:
       nexus-api-key: ${{ secrets.NEXUS_API_KEY }}
       nexus-cookie-nxid-header: ${{ secrets.NEXUS_COOKIE_HEADER_NEXUSID }}
       nexus-cookie-sid-header: ${{ secrets.NEXUS_COOKIE_HEADER_SID_DEVELOP }}
+      ts-api-key: ${{ secrets.TS_SERVICEACCOUNT }}
       
     with:
       sln-file-name: TripleBronze
       proj-file-name: TripleBronzeJVL
       is-nuget-package: false
-      nexus-enable-upload: true
+      nexus-enable-upload: false
       nexus-mod-id: 1463
+      ts-enable-upload: true
+      ts-name: Triple_Bronze_JVL
+      ts-description: "Triples the amount of bronze you get with each craft so that crafting bronze is consistent (1 tin ingot + 2 copper ingots = 3 bronze ingots)"
+      ts-categories: "server-side client-side tweaks crafting" #https://thunderstore.io/api/experimental/community/valheim/category/
+      ts-dependencies: denikson-BepInExPack_Valheim@5.4.2105 ValheimModding-Jotunn@2.11.5
