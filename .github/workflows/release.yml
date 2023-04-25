@@ -31,7 +31,7 @@ jobs:
       sln-file-name: TripleBronze
       proj-file-name: TripleBronzeJVL
       is-nuget-package: false
-      nexus-enable-upload: false
+      nexus-enable-upload: true
       nexus-mod-id: 1463
       ts-enable-upload: true
       ts-name: Triple_Bronze_JVL
