@@ -41,25 +41,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{
 		..\.github\workflows\release.yml = ..\.github\workflows\release.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{8DE01470-64F4-449A-A4F5-D915B67B850F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "UnitTests\UnitTests.csproj", "{8DE01470-64F4-449A-A4F5-D915B67B850F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		DebugNoDeploy|Any CPU = DebugNoDeploy|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F54E1842-C84D-4F49-97A9-41D704AAB7B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F54E1842-C84D-4F49-97A9-41D704AAB7B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F54E1842-C84D-4F49-97A9-41D704AAB7B4}.DebugNoDeploy|Any CPU.ActiveCfg = DebugNoDeploy|Any CPU
-		{F54E1842-C84D-4F49-97A9-41D704AAB7B4}.DebugNoDeploy|Any CPU.Build.0 = DebugNoDeploy|Any CPU
 		{F54E1842-C84D-4F49-97A9-41D704AAB7B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F54E1842-C84D-4F49-97A9-41D704AAB7B4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8DE01470-64F4-449A-A4F5-D915B67B850F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8DE01470-64F4-449A-A4F5-D915B67B850F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8DE01470-64F4-449A-A4F5-D915B67B850F}.DebugNoDeploy|Any CPU.ActiveCfg = Debug|Any CPU
-		{8DE01470-64F4-449A-A4F5-D915B67B850F}.DebugNoDeploy|Any CPU.Build.0 = Debug|Any CPU
 		{8DE01470-64F4-449A-A4F5-D915B67B850F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DE01470-64F4-449A-A4F5-D915B67B850F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
