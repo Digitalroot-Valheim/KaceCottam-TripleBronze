@@ -5,8 +5,8 @@
   "description": "Triples the amount of bronze you get with each craft so that crafting bronze is consistent (1 tin ingot + 2 copper ingots = 3 bronze ingots)",
   "version_number": "%VERSION_NUMBER%",
   "dependencies": [
-    "denikson-BepInExPack_Valheim-5.4.2105",
-    "ValheimModding-Jotunn-2.11.5"
+    "denikson-BepInExPack_Valheim-5.4.2202",
+    "ValheimModding-Jotunn-2.20.0"
   ],
   "website_url": "https://github.com/Digitalroot-Valheim/KaceCottam-TripleBronze"
 }

@@ -36,7 +36,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "imgs", "imgs", "{07B8E4AC-F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{82625CE6-5CD2-4DBD-BFFB-97D7F07C3AD5}"
 	ProjectSection(SolutionItems) = preProject
-		..\.github\workflows\discord.yml = ..\.github\workflows\discord.yml
 		..\.github\workflows\nuget.autoupdate.yml = ..\.github\workflows\nuget.autoupdate.yml
 		..\.github\workflows\release.yml = ..\.github\workflows\release.yml
 	EndProjectSection
