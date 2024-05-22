@@ -11,3 +11,4 @@ namespace TripleBronzeJVL
     public const string Namespace = "Digitalroot.Valheim" + nameof(TripleBronzeJVL);
   }
 }
+ 
