@@ -34,7 +34,7 @@ jobs:
       is-nuget-package: false
       nexus-enable-upload: true
       nexus-mod-id: 1463
-      ts-enable-upload: false
+      ts-enable-upload: true
       ts-name: Triple_Bronze_JVL
       ts-description: "Triples the amount of bronze you get with each craft so that crafting bronze is consistent (1 tin ingot + 2 copper ingots = 3 bronze ingots)"
       ts-categories: "server-side client-side tweaks crafting" #https://thunderstore.io/api/experimental/community/valheim/category/
