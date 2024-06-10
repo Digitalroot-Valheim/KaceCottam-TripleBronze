@@ -15,7 +15,7 @@ namespace TripleBronzeJVL
 {
   [BepInPlugin(Guid, Name, Version)]
   [BepInDependency(Jotunn.Main.ModGuid, "2.10.0")]
-  [NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Minor)]
+  [NetworkCompatibility(CompatibilityLevel.VersionCheckOnly, VersionStrictness.Minor)]
   [SuppressMessage("ReSharper", "MemberCanBePrivate.Global")]
   public partial class Main : BaseUnityPlugin, ITraceableLogging
   {

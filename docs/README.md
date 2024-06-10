@@ -1,5 +1,5 @@
-# Summary
-This is a port of <a href="https://www.nexusmods.com/valheim/mods/94">TripleBronze</a> to JVL   
+﻿# Summary
+Port of <a href="https://www.nexusmods.com/valheim/mods/94">TripleBronze</a> to JvL   
 
 
 # TripleBronze
@@ -11,7 +11,16 @@ There is a configuration file to change the multiplier of bronze. After the firs
 
 In the configuration file, you can also enable the "QuickSmelt" patch which add QOL recipes from ores -> bars into the forge after upgrading the tier. This has configurable coal amounts. This might need you to drop/pickup coal ore, tin ore, wood, and iron ore.
 
-Hosted at <https://www.nexusmods.com/valheim/mods/1463>
+###### Add to server to enforce configs. 
+
+### Crossplay <span class="checked">✔</span>
+| Point of View               | Server w/ Mod                   | Server w/o Mod                  | Client (PC) w/ mod              | Client (PC/Console) w/o mod     |
+| ---                         | ---                             | ---                             | ---                             | ---                             |
+| Client (PC) w/ mod          | <span class="checked">✔</span> | <span class="checked">✔</span> | <span class="checked">✔</span> | <span class="checked">✔</span> |
+| Client (PC/Console) w/o mod | <span class="checked">✔</span> | <span class="checked">✔</span> | <span class="checked">✔</span> | <span class="checked">✔</span> |
+| Server w/ Mod               |                                 |                                 | <span class="checked">✔</span> | <span class="checked">✔</span> |
+| Server w/o Mod              |                                 |                                 | <span class="checked">✔</span> | <span class="checked">✔</span> |
+
 
 ### Issues/Questions/Bugs
 - Use the repo issues tab above.
